@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @import "setting/fonts";
+@import "setting/mixin";
+@import "setting/reset";
+@import "setting/vars";
 
 @import "section/diary";
 @import "section/footer";
