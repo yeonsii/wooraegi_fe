@@ -1,4 +1,7 @@
 #main {
-    height: 600px;
-    position: relative;
+  overflow-y: auto; /* 메인에만 세로 스크롤 생성 */
+  height: calc(
+    100vh - 100px
+  ); /* 화면 높이에서 헤더와 푸터 높이를 뺀 값으로 메인의 높이 설정 */
+  position: relative;
 }
